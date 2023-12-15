@@ -14,7 +14,9 @@
   <body class="container">
     <!--form de adicionar-->
     <div class="card">
-      <h2>Agregar nuevo plato</h2>
+      <div class="card-header">
+        <h2>Agregar nuevo plato</h2>
+    </div>
       <div class="input-group mb-3">
         <span class="input-group-text" id="basic-addon1">idDish</span>
         <input type="number" class="form-control" placeholder="idDish" aria-label="idDish" aria-describedby="basic-addon1" id="idSend">
@@ -47,9 +49,17 @@
         <span class="input-group-text" id="basic-addon1">comments</span>
         <input type="text" class="form-control" placeholder="comments" aria-label="comments" aria-describedby="basic-addon1" id="commentsSend">
       </div>
+
+      <div class="row">
+        <div class="col">
+            <button type="button" class="btn btn-success" id="Agregar">Agregar</button>
+        </div>
+        <div class="col">
+            <button type="button" class="btn btn-warning" id="limpiar">Limpiar Campos</button>
+        </div>
+    </div>
       
-      <button type="button" class="btn btn-success" id="Agregar">Agregar</button>
-      <button type="button" class="btn btn-warning" id="limpiar">Limpiar Campos</button>
+      
     </div>
 
     <hr>
